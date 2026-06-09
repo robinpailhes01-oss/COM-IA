@@ -79,6 +79,16 @@ Un hook = **une phrase parlée, concrète, lisible seule dans la vignette.** Pat
 
 ---
 
+## 5bis. Logos d'outils (preuve du concret)
+
+- **Autorisé et encouragé** : les **vrais logos des outils utilisés** (Claude, WhatsApp,
+  n8n…) pour prouver le concret. À distinguer des icônes déco (interdites).
+- **Rendu** : toujours posés en **couche nette** depuis les fichiers officiels — jamais
+  dessinés par l'IA (elle les déforme). Sources : Simple Icons (SVG) rasterisés.
+- **Style** : **monochrome** (ton muté), pour ne pas concurrencer l'accent or. Petits, alignés.
+- **Placement par défaut** : footer discret « CONSTRUIT AVEC [logos] » sur la slide
+  résultat / CTA. Jamais sur le hook.
+
 ## 6. À éviter (interdits visuels confirmés)
 
 - Dark / moody / granuleux (on traduit toujours en **lumineux**).

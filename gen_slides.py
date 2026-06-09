@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageFilter
+import cairosvg, re, io
 
 W, H = 1080, 1350
 CREAM = (250, 250, 248)
@@ -100,6 +101,40 @@ def slide1():
 def arrow(d, x, y, size, color):
     d.polygon([(x, y), (x, y+size), (x+size*0.95, y+size/2)], fill=color)
 
+def get_logo(name, hexcol, h):
+    svg = open(f"assets/logos/{name}.svg").read()
+    svg = re.sub(r'fill="#[0-9A-Fa-f]+"', f'fill="{hexcol}"', svg, count=1)
+    png = cairosvg.svg2png(bytestring=svg.encode(), output_height=h*3)
+    im = Image.open(io.BytesIO(png)).convert("RGBA")
+    return im.resize((int(im.width*h/im.height), h), Image.LANCZOS)
+
+def tracked(d, x, y, text, font, fill, sp=5):
+    for ch in text:
+        d.text((x, y), ch, font=font, fill=fill)
+        x += d.textlength(ch, font=font) + sp
+    return x
+
+def footer(img, d, hexcol, y, center=False):
+    """Discreet 'CONSTRUIT AVEC  [Claude] · [WhatsApp]' footer."""
+    lf = F(POP_SB, 23)
+    label = "CONSTRUIT AVEC"
+    sp = 5
+    label_w = sum(d.textlength(c, font=lf)+sp for c in label) - sp
+    lx = (W-label_w)//2 if center else 110
+    tracked(d, lx, y, label, lf, hexcol, sp)
+    h = 40
+    claude = get_logo("claude", hexcol, h)
+    wa = get_logo("whatsapp", hexcol, h)
+    dotf = F(POP_B, 30)
+    gap = 22
+    dotw = d.textlength("·", font=dotf)
+    row_w = claude.width + gap + dotw + gap + wa.width
+    rx = int((W-row_w)//2) if center else 110
+    ry = y + 46
+    img.paste(claude, (rx, ry), claude); rx += claude.width + gap
+    d.text((rx, ry+2), "·", font=dotf, fill=hexcol); rx += int(dotw) + gap
+    img.paste(wa, (rx, ry), wa)
+
 # ---------- generic cream content slide (vertically centered) ----------
 def content_slide(idx, num, big, body, big_font=(SER_B,60), body_font=(POP_R,37)):
     img = Image.new("RGB", (W, H), CREAM)
@@ -136,6 +171,7 @@ def slide4():
     d.text((W/2 - nw/2, y), num, font=nf, fill=GOLD); y += num_h + gap2
     y = draw_rich(d, M, y, sl, sf, ssw, 62, align="center", max_w=W-2*M); y += gap3
     draw_rich(d, M, y, sl2, pf, ssw2, 56, align="center", max_w=W-2*M)
+    footer(img, d, "#7E8590", 1170, center=True)
     img.save("test_output/slide_4.png")
 
 # ---------- SLIDE 6 : CTA (vertically centered) ----------
@@ -154,6 +190,7 @@ def slide6():
     d.rectangle([M, y, M+70, y+6], fill=GOLD); y += 6 + 50
     arrow(d, M, y+8, 30, GOLD)
     d.text((M+48, y), "Abonne-toi si ça te parle.", font=cf, fill=GOLD)
+    footer(img, d, "#8A8A8A", 1170, center=False)
     img.save("test_output/slide_6.png")
 
 slide1()
