@@ -98,6 +98,37 @@
 - Icônes 3D stock / rendus génériques « AI influencer ».
 - Postures « guru ».
 
+## Références analysées (lot 4 — 5 screenshots)
+
+### @karaodesign — slides « Creator Space de Framer » (FR)
+- Hook photo perso + overlay (selfie naturel) avec accent rose sur le terme clé.
+- Slide texte fond crème + mix sans gras / serif italique.
+- Voix : sous-titre « D'la moula sans rien faire » → slang, parlé, punchy.
+
+### ⭐ GRILLE complète de @karaodesign — leçon cohérence feed
+- La grille n'a PAS une couleur uniforme (crème, rose, bleu ciel, orange, rouge, photos).
+- Elle reste ultra cohérente grâce à : (1) même système typographique partout,
+  (2) même formule de hook (phrase parlée / opinion / cas concret lisible en vignette),
+  (3) un seul accent par slide.
+- **Conséquence système** : "feed harmony" = cohérence du SYSTÈME (typo + formule de
+  hook + 1 accent), PAS de la couleur. Le DA peut alterner Light/Dark sans casser l'harmonie.
+- Exemples de hooks (modèle structure pour le Copywriter) :
+  « Les packs c'est l'arnaque la mieux habillée du web. » /
+  « Un client m'a appelée pour quitter Reservit. Il est passé de 10 à 22 réservations/mois. » /
+  « J'ai une mauvaise relation à l'argent. »
+
+### @willnelson_coach_ — « Claude new DM feature » (style thumbnail)
+- Caps condensés à gros contours, bleu criard, icônes glow, photo détourée, mockup chat.
+- **Verdict : rejeté** (style « miniature YouTube »). Garder seulement le principe du
+  mockup de conversation, traité proprement.
+
+## Impacts sur le plan
+
+1. **"Feed harmony" redéfini** = cohérence du système (typo + formule de hook + 1 accent),
+   pas de la couleur → le DA et le Quality Checker vérifient le SYSTÈME, pas "même couleur".
+2. **Hooks @karaodesign = modèle de structure** pour le Copywriter (cas concret + résultat
+   + ton parlé FR), en attendant les textes propres de Robin.
+
 ## Direction design retenue
 
 - **Fonds clairs et épurés** (crème / blanc cassé) → cohérent avec Light Premium. Beaucoup de whitespace.
