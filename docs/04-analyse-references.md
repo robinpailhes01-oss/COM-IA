@@ -60,6 +60,44 @@
 - Icônes 3D stock / rendus génériques « AI influencer » → éviter.
 - Postures « guru qui pose avec son laptop » → éviter.
 
+## Références analysées (lot 3 — 5 screenshots)
+
+### @imran_sammee — cover « 5 Nutrition Non-Negotiables » (mirror selfie B&W)
+- Slide de couverture du carousel déjà vu. Bold sans blanc + flèche.
+- **Verdict : structure ok, traitement sombre rejeté** (→ lumineux chez Robin).
+
+### @meglovesdata — « Everything I used Claude Cowork for » (selfie + stickers)
+- Selfie, bold sans + serif italique en highlight, mais surchargé de stickers 3D,
+  icônes d'apps, mockups en surimpression.
+- **Verdict : garder uniquement le highlight typo, rejeter le clutter de stickers.**
+
+### @michaelaiacademy — « What is an AI Influencer? » (photo + glass card)
+- Photo perso lumineuse sur fond blanc + carte glassmorphism (script « But first… »,
+  titre bold sans, bullets). Propre, premium.
+- **Verdict : layout photo-gauche / carte-texte-droite à garder (bright).**
+
+### @growai_edtech — « Secret Codes for Claude » (papier crème + serif)
+- Fond papier crème, serif italique + surlignages marqueur mais en 4 couleurs.
+- **Verdict : garder crème + serif + highlight, mais UNE seule couleur (or).**
+
+### ⭐ @karaodesign — story « j'ai gagné 100€ » (FRANÇAIS, Bordeaux)
+- Référence la plus alignée. Fond crème, gros sans noir gras, storytelling perso
+  en français, chute surlignée en accent (rose). Caption courte et parlée.
+- **Verdict : modèle cible** — cas concret + résultat chiffré + ton parlé FR + 1 accent.
+
+## Formule gagnante (synthèse sur 15 réf / 7 comptes)
+
+> Fond clair (crème/papier) · typo forte (serif éditorial OU sans gras) · UN seul
+> accent (or `#C9A84C`) qui souligne le mot/résultat clé · cas concret · zéro clutter.
+
+## Interdits visuels confirmés
+
+- Dark / moody / granuleux.
+- Stickers / overlays en pagaille.
+- Highlights multi-couleurs.
+- Icônes 3D stock / rendus génériques « AI influencer ».
+- Postures « guru ».
+
 ## Direction design retenue
 
 - **Fonds clairs et épurés** (crème / blanc cassé) → cohérent avec Light Premium. Beaucoup de whitespace.
