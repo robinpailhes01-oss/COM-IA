@@ -34,6 +34,9 @@
 
 ## Agent 4 — Le Designer
 - **Mission** : produire les visuels selon le brief du DA.
+- **Rôle corrigé (validé Robin)** : le Designer **ne génère pas d'images “à la main”**.
+  Il produit les **prompts Nano Banana** (1 par slide) + la liste des éléments à poser
+  en couche nette ensuite (texte si besoin, logos). La génération d'image = Nano Banana.
 - **Inputs** : brief visuel par slide, textes à intégrer, dernières images du feed.
 - **Outputs** : image par slide (1080x1350 ou 1080x1080).
 - **Méthode (décision validée)** : Nano Banana pour le fond/visuel uniquement ;
