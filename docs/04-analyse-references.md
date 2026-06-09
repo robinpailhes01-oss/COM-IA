@@ -32,6 +32,34 @@
 - **Verdict : s'en éloigner** (esthétique « influenceur IA » générique).
   Seul le principe des *cards listées* (étapes concrètes) est réutilisable.
 
+## Références analysées (lot 2 — 5 screenshots)
+
+### @victoriaeverest_ — « I'm 38, read this twice » (serif + format Notes)
+- Slide hook : fond papier crème texturé, gros serif italique élégant (Didot), centré.
+- Slides contenu : maquettées comme une capture de l'app Notes (texture papier,
+  en-tête « Notes / Done », date, listes numérotées) → marqueur d'authenticité.
+- **Verdict : à garder** — hook serif crème = Light Premium ; format Notes = option authenticité.
+
+### @imran_sammee — « non-negotiables » (photo + texte overlay, fitness)
+- Photo perso + texte bold sans en overlay, numérotation « Non-negotiable 001// »,
+  contenu structuré (chiffres, exemples, flèches).
+- **Verdict : garder la STRUCTURE (photo + overlay + numérotation), JETER le
+  traitement** noir & blanc sombre/moody/granuleux → incompatible avec feed lumineux.
+
+## Synthèse (lots 1 + 2)
+
+- **Fonds clairs** (crème / papier texturé / blanc cassé).
+- **Serif éditorial pour les hooks** (droit ou italique) ; bold sans pour le contenu.
+- **Marqueurs d'authenticité récurrents** = signature Robin potentielle : capture Notes,
+  mockup d'écran réel, listes numérotées, labels « 001// » / « #1 ». Montrer du vrai/concret.
+- **Photo perso + statement en overlay** comme slide hook.
+
+## Règles de garde (traduction systématique)
+
+- Tout visuel **sombre / moody / granuleux** → version **lumineuse**.
+- Icônes 3D stock / rendus génériques « AI influencer » → éviter.
+- Postures « guru qui pose avec son laptop » → éviter.
+
 ## Direction design retenue
 
 - **Fonds clairs et épurés** (crème / blanc cassé) → cohérent avec Light Premium. Beaucoup de whitespace.
