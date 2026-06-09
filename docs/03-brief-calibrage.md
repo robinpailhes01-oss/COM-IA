@@ -1,5 +1,16 @@
 # Brief de calibrage — ce que Robin doit fournir
 
+## ⚠️ Décision voix (mise à jour) — calibrage INCRÉMENTAL
+
+Robin ne fournit pas un corpus de voix figé d'avance. **À chaque idée de post**, il
+donne ses mots bruts (texte ou audio), qui servent d'**ancre de voix pour ce post**.
+Le Copywriter s'appuie sur ces mots + un corpus de voix qui **grossit au fil des posts**
+(chaque texte validé enrichit `brand_config.voice_guide`). La voix se calibre en marchant.
+
+---
+
+## Le reste (références design + photos)
+
 Pour calibrer les agents sur le VRAI style de Robin (et pas un style générique),
 j'ai besoin de trois familles d'exemples. Plus c'est concret, mieux c'est.
 
